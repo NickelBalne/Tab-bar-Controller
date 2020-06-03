@@ -36,12 +36,13 @@ class _MyTabbedPageState extends State<MyTabbedPage>
           new IconButton(
             icon: new Icon(Icons.search),
             onPressed: () {
-              print("Search Tapped");
+//              print("Search Tapped");
 //            print("TabControllerIndex:${_tabController.index}");
 //            print("TabControllerIndex:${_tabController.index + 1}");
 //            print("TabControllerIndexAfter:${((_tabController.index + 1) % 2)}");
             _tabController.animateTo((_tabController.index + 1) % 2);
 //              _tabController.animateTo(0);
+            print("Search Button in App bar tapped");
             },
           ),
         ],
